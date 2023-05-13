@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+            xsi:noNamespaceSchemaLocation= "XSD_biblioteca.xsd">
+    <libros>
+        <libro Id= "L1010" tipo_clase= "novela">
+            <index>
+                <titulo>Obra Maestra</titulo>
+                <capitulos>
+                    <capitulo num_pag="50">
+                        <titulo>capitulo 1</titulo>
+                        <contenido enlace="https://www.bbc.com/mundo/noticias-62419975"/>
+                    </capitulo>
+                    <capitulo num_pag="45">
+                        <titulo>capitulo 2</titulo>
+                        <contenido enlace="https://www.bbc.com/mundo/noticias-62419975"/>
+                    </capitulo>
+                    <capitulo num_pag="65">
+                        <titulo>capitulo 3</titulo>
+                        <contenido enlace="https://www.bbc.com/mundo/noticias-62419975"/>
+                    </capitulo>
+                    <sinopsis>"La increíble historia de la desaparición en España de una escultura de 38 
+                                toneladas que aún hoy nadie puede explicar"</sinopsis>
+                    <num_paginas>150</num_paginas>
+                </capitulos>
+            </index>
+        </libro>
+        <libro Id="L1112" tipo_clase="infantil">
+            <index>
+                <titulo>Un cuento para cada letra</titulo>
+                <capitulos>
+                    <capitulo num_paginas="10">
+                        <titulo>Capítulo 1</titulo>
+                        <contenido enlace="https://www.orientacionandujar.es/2017/09/23/coleccion-cuentos-letra-del-abecedario/"/>
+                    </capitulo>
+                    <capitulo num_paginas="10">
+                        <titulo>Capítulo 2</titulo>
+                        <contenido enlace="https://www.orientacionandujar.es/2017/09/23/coleccion-cuentos-letra-del-abecedario/"/>
+                    </capitulo>
+                    <capitulo num_paginas="10">
+                        <titulo>Capítulo 3</titulo>
+                        <contenido enlace="https://www.orientacionandujar.es/2017/09/23/coleccion-cuentos-letra-del-abecedario/"/>
+                    </capitulo>
+                </capitulos>
+                <sinopsis>"Este recopilatorio de 29 cuentos, uno por cada letra del abecedario, 
+                           se ha ideado para que los niños que están aprendiendo a leer y escribir 
+                           distingan las grafías y sonidos de cada letra y aprendan a reconocerlas"
+                </sinopsis>
+                <num_paginas>30</num_paginas>
+            </index>
+        </libro>
+        <libro Id="L0012" tipo_clase="didactico">
+            <libro Id= "L1010" tipo_clase= "novela">
+                <index>
+                    <titulo>Lo que aprendí mientras te portabas mal</titulo>
+                    <capitulos>
+                        <capitulo num_paginas="60">
+                            <titulo>Capítulo 1</titulo>
+                            <contenido enlace="https://www.educaciontrespuntocero.com/libros/los-mejores-libros-para-docentes/#Lo-que-aprendi-mientras-te-portabas-mal"/>
+                        </capitulo>
+                        <capitulo num_paginas="55">
+                            <titulo>Capítulo 2</titulo>
+                            <contenido enlace="https://www.educaciontrespuntocero.com/libros/los-mejores-libros-para-docentes/#Lo-que-aprendi-mientras-te-portabas-mal"/>
+                        </capitulo>
+                        <capitulo num_paginas="55">
+                            <titulo>Capítulo 3</titulo>
+                            <contenido enlace="https://www.educaciontrespuntocero.com/libros/los-mejores-libros-para-docentes/#Lo-que-aprendi-mientras-te-portabas-mal"/>
+                        </capitulo>
+                    </capitulos>
+                    <sinopsis>"El cómo cambiar los castigos y la silla de pensar por valor y 
+                    pertenencia en un espacio seguro de aprendizaje."</sinopsis>
+                    <num_paginas>120</num_paginas>
+                </index>
+            </libro>
+        </libro>
+    </libros>
+    <revistas>
+        <revista Id="R2356" tipo_clase="informática">
+            <titulo>Computer Hoy</titulo>
+            <numero>678</numero>
+                <indice>
+                    <secciones>
+                        <seccion tipo="actualidad" numero_paginas="20">
+                            <contenido enlace="https://computerhoy.com/"/>
+                        </seccion>
+                        <seccion tipo="practico" numero_paginas="25">
+                            <contenido enlace="https://computerhoy.com/"/>
+                        </seccion>
+                    </secciones>
+                </indice>
+        </revista>
+        <revista Id="R2351" tipo_clase="corazón">
+            <titulo>Hola</titulo>
+            <numero>1023</numero>
+                <indice>
+                    <secciones>
+                        <seccion tipo="corazon" numero_paginas="20">
+                            <contenido enlace="https://www.hola.com/"/>
+                        </seccion>
+                        <seccion tipo="horoscopo" numero_paginas="10">
+                            <contenido enlace="https://www.hola.com"/>
+                        </seccion>
+                    </secciones>
+                </indice>
+        </revista>
+        <revista Id="R2365" tipo_clase="coches">
+            <titulo>Motor Pasión</titulo>
+            <numero>2000</numero>
+                <indice>
+                    <secciones>
+                        <seccion tipo="comparativas" numero_paginas="20">
+                            <contenido enlace="https://www.motorpasion.com/"/>
+                        </seccion>
+                        <seccion tipo="electricos" numero_paginas="10">
+                            <contenido enlace="https://www.motorpasion.com/"/>
+                        </seccion>
+                    </secciones>
+                </indice>
+        </revista>
+        <revista Id="R2345" tipo_clase="investigación">
+            <titulo>Phys.org</titulo>
+            <numero>200</numero>
+                <indice>
+                    <secciones>
+                        <seccion tipo="nanotecnologia" numero_paginas="20">
+                            <contenido enlace="https://phys.org/"/>
+                        </seccion>
+                        <seccion tipo="neurociencia" numero_paginas="30">
+                            <contenido enlace="https://phys.org/"/>
+                        </seccion>
+                    </secciones>
+                </indice>
+        </revista>
+        <revista Id="R2346" tipo_clase="otras">
+            <titulo>Time</titulo>
+            <numero>4500</numero>
+                <indice>
+                    <secciones>
+                        <seccion tipo="politica" numero_paginas="20">
+                            <contenido enlace="https://time.com/"/>
+                        </seccion>
+                        <seccion tipo="negocios" numero_paginas="20">
+                            <contenido enlace="https://time.com/"/>
+                        </seccion>
+                        <seccion tipo="salud" numero_paginas="20">
+                            <contenido enlace="https://time.com/"/>
+                        </seccion>
+                    </secciones>
+                 </indice>
+        </revista>
+    </revistas>
+    <periodicos>
+        <periodico Id="P1002" tipo_clase="nacional" fecha_publicacion="08/05/2023">
+        </periodico>
+        <periodico Id="P1003" tipo_clase="internacional" fecha_publicacion="08/05/2023">
+        </periodico>
+            <index>
+                <secciones>
+                    <seccion tipo= "economica">
+                        <articulos autor="Josep Fontana"></articulos>
+                        <contenido informacion= "toda la informacion que nos aprote en la noticia"></contenido>
+                    </seccion>
+                    <seccion tipo= "opinion">
+                        <articulos autor="Jose Carlos Diez"></articulos>
+                        <contenido informacion= "toda la informacion que nos aprote en la noticia"></contenido>
+                    </seccion>
+                    <seccion tipo= "deportes">
+                        <articulos autor="Ramón de España"></articulos>
+                        <contenido informacion= "toda la informacion que nos aprote en la noticia"></contenido>
+                    </seccion>
+                    <seccion tipo= "nacional">
+                        <articulos autor="Manuel Cruz"></articulos>
+                        <contenido informacion= "toda la informacion que nos aprote en la noticia"></contenido>
+                    </seccion>
+                    <seccion tipo= "internacional">
+                        <articulos autor="Josep Oliver"></articulos>
+                        <contenido informacion= "toda la informacion que nos aprote en la noticia"></contenido>
+                    </seccion>
+                </secciones>
+            </index>
+    </periodicos>
+</biblioteca>

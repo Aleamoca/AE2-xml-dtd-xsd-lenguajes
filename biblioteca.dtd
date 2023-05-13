@@ -1,0 +1,64 @@
+<!ELEMENT biblioteca (libros+,revistas+,periodicos+)>
+<!-- Definimos los elementos de biblioteca -->
+<!-- Definimos Libro -->
+<!ELEMENT libros (libro+)>
+
+<!-- Definimos los atributos de libro ID y tipo_clase como obligatorio-->
+<!ATTLIST libro Id CDATA #REQUIRED>
+<!ATTLIST libro tipo_clase (novela,infantil,didactico) #REQUIRED>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT libro (index)>
+<!-- Definimos los elementos de libro -->
+<!ELEMENT index (titulo,capitulos,sinopsis,num_pag)>
+<!ELEMENT capitulos (capitulo+)>
+<!ELEMENT capitulo (titulo, contenido)>
+
+<!-- Definimos los atributos de caputulo num_paginas como obligatorio-->
+<!ATTLIST capitulo num_paginas CDATA #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT contenido EMPTY>
+<!ATTLIST contenido enlace CDATA #REQUIRED>
+<!ELEMENT sinopsis (#PCDATA)>
+<!ELEMENT num_paginas (#PCDATA)>
+
+<!-- Definimos revista -->
+<!ELEMENT revistas (revista+)>
+<!-- Definimos los elementos de revista -->
+<!ELEMENT revista (titulo,numero,secciones)>
+
+<!-- Definimos los atributos de revista Id y tipo_clase como obligatorio-->
+<!ATTLIST revista Id CDATA #REQUIRED>
+<!ATTLIST revista tipo_clase(informatica,corazon,coches,investigacion,otras)#REQUIRED>
+<!-- Defininms los elementos de revista -->
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+
+<!ELEMENT secciones (seccion+)>
+<!-- Definimos los elementos de contenido -->
+<!ELEMENT seccion (contenido)>
+<!ATTLIST contenido enlace CDATA #REQUIRED>
+<!ATTLIST seccion tipo CDATA #REQUIRED>
+<!ATTLIST seccion numero_paginas CDATA #REQUIRED>
+
+
+<!-- Definimos los elementos de periódico -->
+
+<!ELEMENT periodicos (periodico+)>
+<!-- Definimos los atributos de pariodico Id y tipo_clase y fecha de puclicación como obligatorio-->
+<!ATTLIST periodico Id CDATA #REQUIRED>
+<!ATTLIST periodico tipo_clase (nacional,internacional) #REQUIRED>
+<!ATTLIST periodico fecha_publicacion CDATA #REQUIRED>
+
+
+<!ELEMENT index (sections)>
+<!-- El indice esta compuesto por secciones -->
+<!ELEMENT sections (section+)>
+<!ELEMENT section (articulos, contenido)>
+<!-- Definimos los atributos de sección -->
+<!ATTLIST section tipo(economica,opinion,deportes,nacional,internacional)#REQUIRED>
+<!ELEMENT articulos EMPTY>
+<!ATTLIST articulos autor CDATA #REQUIRED>
+<!ELEMENT contenido (#PCDATA)>
+<!-- Definimos los atributos de contenido -->
+<!ATTLIST contenido enlace CDATA #REQUIRED>
