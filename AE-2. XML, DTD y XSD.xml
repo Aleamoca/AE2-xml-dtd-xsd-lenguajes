@@ -3,7 +3,7 @@
 <biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
             xsi:noNamespaceSchemaLocation= "XSD_biblioteca.xsd">
     <libros>
-        <libro Id= "L1010" tipo_clase= "novela">
+        <libro id= "L1010" tipo_clase= "novela">
             <index>
                 <titulo>Obra Maestra</titulo>
                 <capitulos>
@@ -25,7 +25,7 @@
                 </capitulos>
             </index>
         </libro>
-        <libro Id="L1112" tipo_clase="infantil">
+        <libro id="L1112" tipo_clase="infantil">
             <index>
                 <titulo>Un cuento para cada letra</titulo>
                 <capitulos>
@@ -49,33 +49,31 @@
                 <num_paginas>30</num_paginas>
             </index>
         </libro>
-        <libro Id="L0012" tipo_clase="didactico">
-            <libro Id= "L1010" tipo_clase= "novela">
-                <index>
-                    <titulo>Lo que aprendí mientras te portabas mal</titulo>
-                    <capitulos>
-                        <capitulo num_paginas="60">
-                            <titulo>Capítulo 1</titulo>
-                            <contenido enlace="https://www.educaciontrespuntocero.com/libros/los-mejores-libros-para-docentes/#Lo-que-aprendi-mientras-te-portabas-mal"/>
-                        </capitulo>
-                        <capitulo num_paginas="55">
-                            <titulo>Capítulo 2</titulo>
-                            <contenido enlace="https://www.educaciontrespuntocero.com/libros/los-mejores-libros-para-docentes/#Lo-que-aprendi-mientras-te-portabas-mal"/>
-                        </capitulo>
-                        <capitulo num_paginas="55">
-                            <titulo>Capítulo 3</titulo>
-                            <contenido enlace="https://www.educaciontrespuntocero.com/libros/los-mejores-libros-para-docentes/#Lo-que-aprendi-mientras-te-portabas-mal"/>
-                        </capitulo>
-                    </capitulos>
-                    <sinopsis>"El cómo cambiar los castigos y la silla de pensar por valor y 
-                    pertenencia en un espacio seguro de aprendizaje."</sinopsis>
-                    <num_paginas>120</num_paginas>
-                </index>
-            </libro>
+        <libro id="L0012" tipo_clase="didactico">
+            <index>
+                <titulo>Lo que aprendí mientras te portabas mal</titulo>
+                <capitulos>
+                    <capitulo num_paginas="60">
+                        <titulo>Capítulo 1</titulo>
+                        <contenido enlace="https://www.educaciontrespuntocero.com/libros/los-mejores-libros-para-docentes/#Lo-que-aprendi-mientras-te-portabas-mal"/>
+                    </capitulo>
+                    <capitulo num_paginas="55">
+                        <titulo>Capítulo 2</titulo>
+                        <contenido enlace="https://www.educaciontrespuntocero.com/libros/los-mejores-libros-para-docentes/#Lo-que-aprendi-mientras-te-portabas-mal"/>
+                    </capitulo>
+                    <capitulo num_paginas="55">
+                        <titulo>Capítulo 3</titulo>
+                        <contenido enlace="https://www.educaciontrespuntocero.com/libros/los-mejores-libros-para-docentes/#Lo-que-aprendi-mientras-te-portabas-mal"/>
+                    </capitulo>
+                </capitulos>
+                <sinopsis>"El cómo cambiar los castigos y la silla de pensar por valor y 
+                           pertenencia en un espacio seguro de aprendizaje."</sinopsis>
+                <num_paginas>120</num_paginas>
+            </index>
         </libro>
     </libros>
     <revistas>
-        <revista Id="R2356" tipo_clase="informática">
+        <revista id="R2356" tipo_clase="informática">
             <titulo>Computer Hoy</titulo>
             <numero>678</numero>
                 <indice>
@@ -89,7 +87,7 @@
                     </secciones>
                 </indice>
         </revista>
-        <revista Id="R2351" tipo_clase="corazón">
+        <revista id="R2351" tipo_clase="corazón">
             <titulo>Hola</titulo>
             <numero>1023</numero>
                 <indice>
@@ -103,7 +101,7 @@
                     </secciones>
                 </indice>
         </revista>
-        <revista Id="R2365" tipo_clase="coches">
+        <revista id="R2365" tipo_clase="coches">
             <titulo>Motor Pasión</titulo>
             <numero>2000</numero>
                 <indice>
@@ -117,7 +115,7 @@
                     </secciones>
                 </indice>
         </revista>
-        <revista Id="R2345" tipo_clase="investigación">
+        <revista id="R2345" tipo_clase="investigación">
             <titulo>Phys.org</titulo>
             <numero>200</numero>
                 <indice>
@@ -131,7 +129,7 @@
                     </secciones>
                 </indice>
         </revista>
-        <revista Id="R2346" tipo_clase="otras">
+        <revista id="R2346" tipo_clase="otras">
             <titulo>Time</titulo>
             <numero>4500</numero>
                 <indice>
@@ -150,9 +148,9 @@
         </revista>
     </revistas>
     <periodicos>
-        <periodico Id="P1002" tipo_clase="nacional" fecha_publicacion="08/05/2023">
+        <periodico id="P1002" tipo_clase="nacional" fecha_publicacion="08/05/2023">
         </periodico>
-        <periodico Id="P1003" tipo_clase="internacional" fecha_publicacion="08/05/2023">
+        <periodico id="P1003" tipo_clase="internacional" fecha_publicacion="08/05/2023">
         </periodico>
             <index>
                 <secciones>
